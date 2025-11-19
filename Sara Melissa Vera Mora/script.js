@@ -71,6 +71,14 @@ estudiantes.sort();
 
 console.log(estudiantes);
 
+//Ejer 10 
+let puntuaciones = [100, 85, 92, 78];
+
+puntuaciones.fill(0);
+
+console.log(puntuaciones);
+
+
 
 
 
