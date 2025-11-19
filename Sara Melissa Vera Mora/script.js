@@ -87,6 +87,26 @@ carrito.splice(1, 1);
 
 console.log(carrito);
 
+//Ejer 12 
+let commits = ["v1.0", "v1.1"];
+
+commits.push("v1.2");
+commits.pop();
+commits.push("v1.2-corregido");
+
+console.log(commits);
+
+
+//Ejer 13 
+let receta = ["Paso 2: Mezclar ingredientes", "Paso 3: Hornear"];
+
+receta.unshift("Paso 1: Pre-calentar horno");
+receta.push("Paso 4: Servir");
+
+console.log(receta);
+
+
+
 
 
 
