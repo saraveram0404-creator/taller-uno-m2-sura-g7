@@ -42,6 +42,24 @@ fila.splice(1, 0, "Jorge");
 
 console.log(fila);
 
+//Ejer 6 
+let mazo = ["As", "Rey", "Reina", "Jota"];
+
+mazo.reverse(); 
+mazo.shift();   
+
+console.log(mazo);
+
+//Ejer 7 
+let asientos = ["Ocupado", "Libre", "Libre", "Libre", "Ocupado"];
+
+asientos.fill("Reservado", 1, 4);
+
+console.log(asientos);
+
+
+
+
 
 
 
