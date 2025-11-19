@@ -146,6 +146,13 @@ invitados.splice(1, 1);
 
 console.log(invitados);
 
+//Ejer 19
+let tablero = ["Inicio", null, null, null, null, "Fin"];
+
+tablero.fill("Casilla Vacía", 1, 5);
+
+console.log(tablero);
+
 
 
 
