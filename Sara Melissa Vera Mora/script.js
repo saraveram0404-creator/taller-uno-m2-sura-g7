@@ -78,6 +78,16 @@ puntuaciones.fill(0);
 
 console.log(puntuaciones);
 
+//Ejer 11
+let carrito = [];
+
+carrito.push("Camisa", "Pantalón");
+carrito.unshift("Zapatos");
+carrito.splice(1, 1); 
+
+console.log(carrito);
+
+
 
 
 
