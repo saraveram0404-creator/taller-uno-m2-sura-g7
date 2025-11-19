@@ -57,6 +57,19 @@ asientos.fill("Reservado", 1, 4);
 
 console.log(asientos);git 
 
+//Ejer 8 
+let productos = ["Monitor", "Teclado", "Mouse Roto", "Webcam"];
+
+productos.splice(2, 1, "Mouse Nuevo");
+
+console.log(productos);git
+
+//Ejer 9
+let estudiantes = ["Zapata", "Alvarez", "Gomez", "Bernal"];
+
+estudiantes.sort();
+
+console.log(estudiantes);
 
 
 
